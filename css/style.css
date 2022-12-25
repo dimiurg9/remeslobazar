@@ -6,6 +6,8 @@
     src: url('fonts/Pacifico/Pacifico-Regular.ttf');
 }
 
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -99,7 +101,30 @@ main img {
   border-radius: 25px;
 }
 
-@media only screen and (max-width: 480px) {
+/* instagramm */
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+@media only screen and (max-width: 479px) {
 
   header {
     display: flex;
@@ -121,6 +146,7 @@ main img {
     border: none;
     background-color: rgb(45, 213, 247);
     padding: 14px 28px;
+    margin-bottom: 10px;
     font-size: 16px;
     cursor: pointer;
     text-align: center;
