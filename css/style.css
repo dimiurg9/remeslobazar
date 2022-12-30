@@ -6,8 +6,6 @@
     src: url('fonts/Pacifico/Pacifico-Regular.ttf');
 }
 
-
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -22,7 +20,8 @@ body {
 
 header {
     display: flex;
-    width: fit-content;
+    /* width: fit-content; */
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     text-align: center;
@@ -67,8 +66,13 @@ button {
     font-size: 25px;
 }
 
+#buttonContact_upper {
+  text-decoration: none;
+}
+
 button:hover {
     background-color: rgba(0,136,169,0.8);
+    text-decoration: underline;
 }
 
 
@@ -101,6 +105,10 @@ main img {
   border-radius: 25px;
 }
 
+main button{
+  width: 100%;
+}
+
 /* instagramm */
 /* Style all font awesome icons */
 .fa {
@@ -123,6 +131,13 @@ main img {
   background: #3B5998;
   color: white;
 }
+
+#contacts_links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 @media only screen and (max-width: 479px) {
 
@@ -158,7 +173,6 @@ main img {
   #buttonContact_middle {
     display: none;
   }
-
 
 }
 
